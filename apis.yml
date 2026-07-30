@@ -1,8 +1,24 @@
 aid: meituan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meituan.png
 name: Meituan
-description: 'Meituan is a company surfaced as a portfolio company of hongshan, idg-capital, qiming and
-  added to the API Evangelist network as a stub for enrichment. Sector: technology. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Meituan (美团) is a Chinese technology-retail company operating one of the world''s largest
+  on-demand local-services and food-delivery super-apps. Its platform spans restaurant food delivery,
+  in-store dining and group buying (Dianping), grocery and instant retail, hotel and travel booking,
+  bike and moped sharing, and payments. Meituan runs a partner/developer cooperation center exposing
+  merchant, delivery/logistics, and local-services integration APIs to business partners; these are
+  partner-gated and documented in Chinese, with no public OpenAPI specification, SDK registry, or
+  self-serve developer signup surfaced at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/meituan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Technology
+- Food Delivery
+- Local Services
+- E-Commerce
+- Super App
+- Logistics
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +47,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/meituan-domain-security.yml
+- type: LLMsTxt
+  url: llms/meituan-llms.txt
+- type: DeveloperPortal
+  name: Meituan Technical Service Cooperation Center
+  url: https://developer.meituan.com
 - type: Website
   url: https://meituan.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
