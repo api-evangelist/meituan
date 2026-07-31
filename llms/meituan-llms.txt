@@ -1,0 +1,13 @@
+# Meituan
+
+> Meituan (美团) is a Chinese technology-retail company operating one of the world's largest on-demand local-services and food-delivery super-apps. Its partner integration APIs (merchant, delivery/logistics, and local-services) are exposed through a developer/partner cooperation center and are partner-gated and documented in Chinese; no public OpenAPI specification, SDK registry, or self-serve developer signup is surfaced at this time.
+
+## Company
+- [Website](https://meituan.com): Meituan corporate and consumer super-app site.
+- [Developer / Partner Cooperation Center](https://developer.meituan.com): Meituan Technical Service Cooperation Center (美团技术服务合作中心), partner-gated developer portal.
+
+## Artifacts
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/meituan/refs/heads/main/security/meituan-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for meituan.com.
+
+## Notes
+- No public OpenAPI, AsyncAPI, GraphQL, SDK packages, well-known discovery documents, security.txt, or trust center were found on the public surface as of 2026-07-20.
